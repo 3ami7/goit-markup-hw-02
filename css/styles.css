@@ -5,6 +5,13 @@ body {
 header {
     background: #FFFFFF;
 }
+:root {
+    --dark-background: #2F303A;
+    --light-blue-bg: #2196F3;
+    --light-white-bg: #E5E5E5;
+    --lighter-white-bg: #F5F4FA;
+    --white-bg: #FFFFFF;
+}
 
 /*HEADER*/
 .main-logo {
@@ -43,77 +50,69 @@ header {
 }
 /*INDEX.HTML*/
 .hero-section {
-    background: #2F303A;
+    background-color: var(--dark-background);
 }
 .hero-section h1 {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     color: #FFFFFF;
 }
 .hero-section button {
-    background: #2196F3;
+    background-color: var(--light-blue-bg);
     color: #FFFFFF;
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.87;
     cursor: pointer;
 }
 .usp-blocks {
-    background: #E5E5E5;
+    background-color: var(--light-white-bg);
 }
-.usp-blocks strong{
-    font-family: 'Roboto';
+.usp-blocks h3 {
     font-size: 14px;
     line-height: 1.14;
     color: #212121;
 }
 .usp-blocks p{
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: #757575;
 }
-.items-grid h1 {
-    font-family: 'Roboto';
+.items-grid h2 {
     font-size: 36px;
     line-height: 1.16;
     color: #212121;
 }
 .list-team {
-    background: #F5F4FA;
+    background-color: var(--lighter-white-bg);
 }
-.list-team h1 {
-    font-family: 'Roboto';
+.list-team h2 {
     font-size: 36px;
     line-height: 1.16;
     color: #212121;
 }
-.list-team strong {
-    font-family: 'Roboto';
+.list-team span {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: #212121;
 }
-.list-team p {
-    font-family: 'Roboto';
+.list-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
+    color: #757575;
 }
 /*PORTFOLIO.HTML*/
 
 .list-buttons {
-    background: #FFFFFF;
+    background-color: var(--white-bg);
 }
 .list-buttons li {
-    background: #F5F4FA;
+    background-color: var(--lighter-white-bg);
 }
 .list-buttons button {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -126,16 +125,14 @@ header {
     color: #FFFFFF;
 }
 .list-items {
-    background: #FFFFFF
+    background-color: var(--white-bg);
 }
 .list-items h3 {
-    font-family: 'Roboto';
     font-size: 18px;
     line-height: 2.0;
     color: #212121;
 }
 .list-items span {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -144,7 +141,7 @@ header {
 
 /*FOOTER*/
 .footer-wrapper {
-    background: #2F303A;
+    background-color: var(--dark-background);
 }
 .footer-logo {
     font-family: 'Raleway';
@@ -157,14 +154,12 @@ header {
     color: #2196F3;
 }
 .address-items b {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF;
 }
 .address-items a {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
