@@ -132,9 +132,11 @@ body {
 .list-buttons {
     background-color: var(--white-bg);
 }
+.list-buttons ul {
+    list-style: none;
+}
 .list-buttons li {
     background-color: var(--lighter-white-bg);
-    list-style: none;
 }
 .list-buttons button {
     font-weight: 500;
@@ -144,8 +146,7 @@ body {
     color: var(--text-dark);
     cursor: pointer;
     outline: none;
-    border: none;
-    box-shadow: 0px 3px 1px; 
+    border: none; 
     border-radius: 4px;
 }
 .list-buttons button:hover {
@@ -201,6 +202,20 @@ body {
     font-size: 14px;
     line-height: 1.71;
     color: var(--text-white);
+}
+.address-items a.address-decoration {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: underline;
+}
+.address-items a.tel-decoration {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .address-items a {
     font-weight: 400;
